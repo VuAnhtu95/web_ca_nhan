@@ -1,0 +1,172 @@
+body{
+}
+div#hoten{
+    width: 1300px; height: 150px;
+}
+input#hoten{
+    width: 200px;
+    height: 50px;
+}
+input#diachi{
+    margin-top: 5px;
+}
+img#dt{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+input{
+    border: none;
+    text-align: center;
+    font-style: inherit;
+    font-size: inherit;
+    margin-top: 5px;
+}
+input#sdt{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    max-width: 100px;
+}
+img#email{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+input#email{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    max-width: 200px;
+}
+img#facebook {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+input#facebook{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    max-width: 200px;
+}
+div#hocvan{
+    width: 1300px; height: 150px;
+}
+input#muclon{
+    font-size: 20px;
+    width: 1300px;
+    text-align: left;
+}
+input#tentruong{
+    font-size: 15px;
+    width: 800px;
+    text-align: left;
+}
+input#nganhhoc{
+    width: 1300px;
+    text-align: left;
+}
+input#xeploai{
+    width: 1300px;
+    text-align: left;
+}
+div#kinhnghiem{                      
+    width: 1300px; height: 400px;
+}
+input#mota {
+    width: 1300px;
+    height:100px;
+    text-align: left;
+}
+div#hoatdong{
+    width: 1300px;
+    height: 170px;
+}
+textarea#mota{
+    width: 1300px;
+    height:100px;
+    text-align: left;
+}
+textarea#mota-2{
+   width: 1300px;
+   height:50px;
+   text-align: left;  }
+div#chungchi{
+    width: 1300px;
+    height: 100px;
+}
+div#giaithuong{
+    width: 1300px;
+    height: 100px;
+}
+div#kynang{
+    width: 1300px;
+    height: 150px;
+}
+textarea#mota-3{
+    width: 1300px;
+    height:100px;
+    text-align: left;
+}
+div#duan{
+    width: 1300px;
+    height: 150px;
+}
+input#duan{
+    width: 1300px;
+    text-align: left;
+}
+input#nam{
+    width: 70px;
+}
+th{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
