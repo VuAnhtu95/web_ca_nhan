@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+}
+h3#1{
+    color: blue;
+}
+td#bang1{
+    text-align: center;
+    width: 180px;
+    font-size: 20px;
+    background: yellow;
+}
+td#hang1{
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+}
