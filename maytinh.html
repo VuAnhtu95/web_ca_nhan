@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Caculator</h1><br/>
+<input id="num1" type="text" style="width: 200px; height: 30px">
+<input id="num2" type="text" style="width: 200px; height: 30px"><br/>
+<button type="button" style="height: 30px; width: 100px" onclick="myFunction()" >Addition(+)</button>
+<button type="button" style="height: 30px; width: 100px" onclick="hihiFunction()">Subtraction(-)</button>
+<button type="button" style="height: 30px; width: 100px" onclick="huhuFunction()">Multiplication(x)</button>
+<button type="button" style="height: 30px; width: 100px" onclick="hahaFunction()">Division(/)</button>
+<p id="result"> </p>
+</body>
+<script>
+
+    function myFunction(){
+        let a = document.getElementById("num1").value
+        let b = document.getElementById("num2").value
+        let c = parseInt(a)
+        let d = parseInt(b)
+        let result = c + d
+        document.getElementById("result").innerHTML = "Result = " + result
+    }
+    function hihiFunction(){
+        let a = document.getElementById("num1").value
+        let b = document.getElementById("num2").value
+        let result = a-b
+        document.getElementById("result").innerHTML = "Result = " + result
+    }
+    function huhuFunction(){
+        let a = document.getElementById("num1").value
+        let b = document.getElementById("num2").value
+        let result = a*b
+        document.getElementById("result").innerHTML = "Result = " + result
+    }
+    function hahaFunction(){
+        let a = document.getElementById("num1").value
+        let b = document.getElementById("num2").value
+        let result = a/b
+        if (b = 0){
+
+        }
+        else{
+            document.getElementById("result").innerHTML = "Result = " + result
+        }
+    }
+</script>
+</html>
