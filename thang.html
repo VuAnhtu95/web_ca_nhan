@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>
+                <input style="width: 200px ; height: 30px" placeholder="Nhập vào tháng cần tính" id="date" type="number">
+            </th>
+            <th>
+                <button style="width: 200px ; height: 30px" id="button" onclick="ahihi()">Tính số ngày</button>
+            </th>
+        </tr>
+    </table>
+    <p id="result"></p>
+</form>
+<script>
+
+    function ahihi() {
+        let a = document.getElementById('date').value;
+        let x = parseInt(a)
+        switch (x) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert('tháng này có 31 ngày')
+            break;
+            case 2:
+                alert("tháng này có 28 hoặc 29 ngày")
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert("tháng này có 30 ngày")
+                break;
+        }
+    }
+
+</script>
+</body>
+</html>
