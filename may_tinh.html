@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="maytinh.css">
+<body>
+<form name="calculator">
+    <input type="text" name="manhinh" style="height: 40px; width: 500px" disabled/>
+<table style="width: 400px; height: 200px ">
+    <tr>
+        <td><input  type="button" value="1" onclick="calculator.manhinh.value += 1"></td>
+        <td><input  type="button" value="2" onclick="calculator.manhinh.value += 2"></td>
+        <td><input  type="button" value="3" onclick="calculator.manhinh.value += 3"></td>
+        <td><input  type="button" value="+" onclick="calculator.manhinh.value += '+'"></td>
+    </tr>
+    <tr>
+        <td><input  type="button" value="4" onclick="calculator.manhinh.value += 4"></td>
+        <td><input  type="button" value="5" onclick="calculator.manhinh.value += 5"></td>
+        <td><input  type="button" value="6" onclick="calculator.manhinh.value += 6"></td>
+        <td><input  type="button" value="-" onclick="calculator.manhinh.value += '-'"></td>
+    </tr>
+    <tr>
+        <td><input  type="button" value="7" onclick="calculator.manhinh.value += 7"></td>
+        <td><input  type="button" value="8" onclick="calculator.manhinh.value += 8"></td>
+        <td><input  type="button" value="9" onclick="calculator.manhinh.value += 9"></td>
+        <td><input  type="button" value="*" onclick="calculator.manhinh.value += '*'"></td>
+    </tr>
+    <tr>
+        <td><input  type="reset" value="C" ></td>
+        <td><input  type="button" value="0" onclick="calculator.manhinh.value += 0"></td>
+        <td><input  type="button" value="=" onclick="calculator.manhinh.value = eval(calculator.manhinh.value)"></td>
+        <td><input  type="button" value="/" onclick="calculator.manhinh.value += '/'"></td>
+    </tr>
+</table>
+</form>
+<script>
+
+</script>
+</body>
+</html>
