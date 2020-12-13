@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="toggle_switch">
+    <div class="toggle_switches" id="button01" onclick="Toggle1()"></div>
+</div> <br><br>
+<div class="toggle_switch" >
+    <div class="toggle_switches" id="button02" onclick="Toggle2()"></div>
+</div> <br><br>
+<div class="toggle_switch">
+    <div class="toggle_switches" id="button03" onclick="Toggle3()"></div>
+</div> <br><br>
+</body>
+<link rel="stylesheet" href="good-fast-cheap.css">
+</html>
+<script>
+    function Toggle1() {
+        const positionLeft = document.getElementById('button01').style.left;
+        if(positionLeft === '55px') {
+            document.getElementById('button01').style.left = 0 + 'px';
+            document.getElementById('button03').style.left = 55 + 'px';
+        } else {
+            document.getElementById('button01').style.left = 55 + 'px';
+            document.getElementById('button02').style.left = 0 + 'px';
+            document.getElementById('button03').style.left = 0 + 'px';
+        }
+    }
+    function Toggle2() {
+        const positionLeft = document.getElementById('button02').style.left;
+        if(positionLeft === '55px') {
+            document.getElementById('button02').style.left = 0 + 'px';
+            document.getElementById('button01').style.left = 55 + 'px';
+        } else {
+            document.getElementById('button02').style.left = 55 + 'px';
+            document.getElementById('button01').style.left = 0 + 'px';
+            document.getElementById('button03').style.left = 0 + 'px';
+        }
+    }
+    function Toggle3() {
+        const positionLeft = document.getElementById('button03').style.left;
+        if(positionLeft === '55px') {
+            document.getElementById('button03').style.left = 0 + 'px';
+            document.getElementById('button02').style.left = 55 + 'px';
+        } else {
+            document.getElementById('button03').style.left = 55 + 'px';
+            document.getElementById('button01').style.left = 0 + 'px';
+            document.getElementById('button02').style.left = 0 + 'px';
+        }
+    }
+</script>
